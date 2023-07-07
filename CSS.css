@@ -1,0 +1,149 @@
+
+body{
+font-family: 'Cabin', sans-serif;
+    align-items: center;
+    justify-content: center;
+}
+
+.cuadro{
+    color: rgb(243, 242, 246);
+background: linear-gradient(360deg, rgba(51,24,150,1) 0%, rgba(43,39,172,1) 41%, rgba(74,74,218,1) 74%, rgba(116,88,240,1) 100%);
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    border-radius: 0px 0px 40px 40px;
+    
+}
+
+.cuadrodos{
+    width: fit-content;
+    height: fit-content;
+    padding: 0px;
+    margin: auto;
+    border-radius: 10%;
+    
+}
+
+.parrafo{
+    font-size: 15px;
+    color: hsla(0, 0%, 100%, 0.587);
+    width: 72px;
+    height: auto;
+    padding: 20px 85px 20px 85px;
+    margin: auto;
+}
+.great{
+    height: fit-content;
+    padding: 10px 160px 10px 155px;
+    margin: auto;
+    color: aliceblue;
+    width: auto;
+    font-size: 20px;
+}
+
+.text{
+    margin: auto;
+    color: white;
+    padding: 0px 85px 30px 82px;
+    height: auto;
+    width: auto;
+    font-size: 13px;
+}
+
+
+.hundred{
+    height: fit-content;
+    width: fit-content;
+    margin: auto;
+    color: hsla(0, 0%, 100%, 0.587);
+    font-size: 12px;
+    padding: 0px 42.5px 0px 42.5px;
+}
+.scored{ 
+    padding: 25px 35px 4.5px 35px;
+    font-size: 45px;
+    margin: 0px;
+    
+}
+
+.circulo{
+    height: 120px;
+    width: 120px;
+    border-radius: 100%;
+    background-color: rgb(71,45,222);
+    margin: 0px 120px 0px 120px;
+}
+.verbal, .memory, .reaction, .visual{
+    
+    font-size: 15px;
+    height: 30px;
+    width: 290px;
+    padding: 15px 15px 5px 15px;
+    border-radius: 10px;
+    margin: 5px 10px 20px 10px;
+    font-weight: bolder;
+}
+
+
+.numbers{
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+}
+.numberss{
+    color: hsla(0, 0%, 0%, 0.587);
+    font-weight: bolder;
+}
+
+.reaction {
+    
+    color: rgb(223, 106, 105);
+    background-color: rgb(253, 231, 233);
+   
+}
+
+
+.memory {
+    color: rgb(211, 174, 52);
+    background-color: rgb(249, 251, 212);
+    
+
+}
+
+
+.verbal {
+    
+    color: rgb(124, 180, 169);
+    background-color:rgb(232, 243, 250);
+    }
+.visual {
+    
+    color: rgb(77, 83, 1923);
+    background-color: rgb(243,243,259);}
+    
+
+.continuar{
+    height: 35px;
+    width: fit-content;
+    font-size: 15px;
+    color: white;
+    background-color: rgb(51, 59, 93);
+    border-radius: 25px;
+    padding: 22.5px 130px 0px 130px;
+    margin: auto;
+}
+
+.continuar:active{
+
+    background-color: rgb(25, 25, 96);
+
+}
+
+.Summary{
+
+    padding: 0px 0px 0px 20px;
+
+}
+
+.reaction::after{
+    content: string('                    ');
+}
